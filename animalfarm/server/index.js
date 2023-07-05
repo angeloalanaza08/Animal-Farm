@@ -17,7 +17,7 @@ const animals = [...Array(250).keys()].map((id) => {
     name: chance.name(),
   };
 });
-
+//forgit
 // Endpoint to search for animals
 app.get("", (req, res) => {
   // Filter results by query
